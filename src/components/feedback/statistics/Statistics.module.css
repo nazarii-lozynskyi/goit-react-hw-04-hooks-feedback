@@ -1,0 +1,46 @@
+.title {
+  margin-bottom: 10px;
+
+  font-family: cursive;
+  font-size: x-large;
+  font-weight: 600;
+  font-size: 46px;
+}
+
+.heading {
+  font-size: 26px;
+}
+
+.list {
+  list-style: none;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.item:first-child {
+  color: rgb(5, 219, 5);
+}
+
+.item:nth-child(2) {
+  color: rgb(173, 173, 2);
+}
+
+.item:nth-child(3) {
+  color: rgb(175, 40, 40);
+}
+
+.item:nth-child(4) {
+  color: rgb(22, 16, 102);
+}
+
+.item:last-child {
+  color: yellowgreen;
+}
+
+.data {
+  margin-left: 10px;
+
+  font-style: italic;
+  font-size: 26px;
+}
