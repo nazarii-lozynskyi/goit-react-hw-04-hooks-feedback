@@ -1,0 +1,64 @@
+.bntList {
+  list-style: none;
+  display: flex;
+
+  margin-bottom: 60px;
+}
+
+.btnItem:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btnItem:first-child .btn {
+  background-color: chartreuse;
+  color: black;
+}
+
+.btnItem:first-child:hover .btn {
+  background-color: rgb(38, 155, 9);
+  color: aliceblue;
+
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btnItem:last-child .btn {
+  background-color: rgb(255, 0, 0);
+  color: aliceblue;
+}
+
+.btnItem:last-child:hover .btn {
+  background-color: rgb(155, 9, 33);
+  color: aliceblue;
+
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btnItem:nth-child(2) .btn {
+  background-color: rgb(255, 238, 0);
+  color: black;
+}
+
+.btnItem:nth-child(2):hover .btn {
+  background-color: rgb(189, 170, 0);
+  color: aliceblue;
+
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+  cursor: pointer;
+
+  border: solid 1px black;
+  border-radius: 5px;
+
+  padding: 16px 32px;
+
+  transition-duration: 0.4s;
+}
+
+.btn:active {
+  transform: translateY(-5px);
+}
